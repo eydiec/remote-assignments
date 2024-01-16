@@ -1,4 +1,4 @@
-# Remote-Assignments
+# Assignments
 Hello there!\
 This respository holds my programming projects done during the remote training
 
