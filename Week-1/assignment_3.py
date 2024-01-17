@@ -5,7 +5,7 @@
 
 
 def main():
-    print(find_max([]))
+
     print(find_max([1, 2, 4, 5]))  # should print 5
     print(find_max([5, 2, 7, 1, 6]))  # should print 7
     print(find_position([5, 2, 7, 1, 6], 5))  # should print 0
