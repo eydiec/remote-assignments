@@ -1,8 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
 
 def main():
     numbers = [1, 2, 5, 6, 7]
@@ -11,6 +6,7 @@ def main():
     print(binary_search_position(numbers, 2))
     print(binary_search_position(numbers, 5))
     print(binary_search_position(numbers, 6))  # should print 3
+
 
 
 def binary_search_position(numbers, target):
@@ -23,21 +19,24 @@ def binary_search_position(numbers, target):
 
 
 def binary_search_position_helper(numbers, target, mid_index):
-    if len(numbers) == 0:
-        return False
+    if len(numbers) == 0 or target not in numbers:
+        return -1
     if numbers[mid_index]==target:
         return mid_index
 
+    elif numbers[mid_index]>target:
+        return binary_search_position_helper(numbers, target, mid_index - 1)
     else:
+        return binary_search_position_helper(numbers, target, mid_index + 1)
 
-        if numbers[mid_index]>target:
-            new_num=numbers[:mid_index]
-
-        else:
-            new_num=numbers[mid_index+1:]
-
-
-        return binary_search_position_helper(new_num, target, len(new_num)//2)
+        # if numbers[mid_index]>target:
+        #     new_num=numbers[:mid_index]
+        #
+        # else:
+        #     new_num=numbers[mid_index+1:]
+        #
+        #
+        # return binary_search_position_helper(new_num, target, len(new_num)//2)
 
 
 
