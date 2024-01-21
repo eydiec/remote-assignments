@@ -10,7 +10,9 @@ This respository holds my programming projects done during the remote training
   * [Assignment-4 Binary Search](https://github.com/eydiec/remote-assignments/blob/main/Week-1/assignment_4/assignment_4.py)
 
 [Week-2]
-  * [Assignment-1 Function and Array (Javascript)](https://github.com/eydiec/remote-assignments/blob/main/Week-2/Week-2/assignment_1/assignment_1.js)
-  * [Assignment-2 HTML DOM and Event Handling (Javascript)](https://github.com/eydiec/remote-assignments/blob/main/Week-2/Week-2/assignment_2/assignment_2.js)
-  * [Assignment 3: Function, Array and Dictionary (Python)]
-  * [Assignment 4: Data Manipulation (Python)]
+  * [Assignment-1 Function and Array (Javascript)](https://github.com/eydiec/remote-assignments/blob/main/Week-2/assignment_1/assignment_1.js)
+  * [Assignment-2 HTML DOM and Event Handling (Javascript)](https://github.com/eydiec/remote-assignments/tree/main/Week-2/assignment_2)
+  * [Assignment-2 Website]
+  * [Assignment 3: Function, Array and Dictionary (Python)](https://github.com/eydiec/remote-assignments/blob/main/Week-2/assignment_3/assignment_3.py)
+  * [Assignment 4: Data Manipulation (Python)](https://github.com/eydiec/remote-assignments/blob/main/Week-2/assignment_4/assignment_4.py)
+
