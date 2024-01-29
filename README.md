@@ -16,3 +16,7 @@ This respository holds my programming projects done during the remote training
   * [Assignment 3: Function, Array and Dictionary (Python)](https://github.com/eydiec/remote-assignments/blob/main/Week-2/assignment_3/assignment_3.py)
   * [Assignment 4: Data Manipulation (Python)](https://github.com/eydiec/remote-assignments/blob/main/Week-2/assignment_4/assignment_4.py)
 
+[Week-3]
+  * [Assignments] (https://github.com/eydiec/remote-assignments/blob/main/Week-3/app.py)
+    
+
