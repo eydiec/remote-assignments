@@ -19,3 +19,4 @@ This respository holds my programming projects done during the remote training
 
 [Week-3]
   * [Assignments](https://github.com/eydiec/remote-assignments/blob/main/Week-3/app.py)
+
