@@ -18,5 +18,5 @@ This respository holds my programming projects done during the remote training
   * [Assignment 5: Algorithm Practice (Python)](https://github.com/eydiec/remote-assignments/tree/main/Week-2/assignment_5)
 
 [Week-3]
-  * [Assignments](https://github.com/eydiec/remote-assignments/tree/main/Week-3)
+  * [Assignments](https://github.com/eydiec/remote-assignments/blob/main/Week-3/assignments/app.py)
 
