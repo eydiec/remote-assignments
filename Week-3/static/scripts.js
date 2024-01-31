@@ -1,0 +1,1 @@
+alert('Now you get the triangular number!');
