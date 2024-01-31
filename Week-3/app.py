@@ -50,9 +50,9 @@ def myname():
 
 @app.route('/myName')
 def my_name():
-    input_name = request.cookies.get('my_name', 'World')
+    input_name = request.cookies.get('my_name')
 
-    return render_template('myname.html', name=input_name)
+    return render_template('myname_2.html', name=input_name)
 
 
 @app.route('/delete')
