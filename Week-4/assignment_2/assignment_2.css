@@ -1,0 +1,13 @@
+#list{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product {
+    margin-bottom: 10px;
+}
+
+.total{
+     font-weight: bold;
+}
