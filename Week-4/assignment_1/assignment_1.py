@@ -15,7 +15,7 @@ def main():
         thread = Thread(target=do_job, args=(i,))  # create a thread and specify the function
         thread_ls.append(thread)
         thread.start()
-        sleep(0.1)
+        
     for t in thread_ls:
         t.join()    
 
