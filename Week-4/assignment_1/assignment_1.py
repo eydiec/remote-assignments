@@ -16,7 +16,8 @@ def main():
         thread_ls.append(thread)
         thread.start()
         sleep(0.1)
-        # thread.join() #make it outside the loop
+    for t in thread_ls:
+        t.join()    
 
     # Option 2 takes longer as the join() holds thread till the next round
     # for t in thread_ls:
