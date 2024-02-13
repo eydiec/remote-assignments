@@ -5,11 +5,7 @@ def twoSum(nums, target):
         num2 = target - num1
         if num2 in d:
             print ([d[num2], i])
-        d[num1] = i  # key: num1, value:i
-        # print(d[num1])
-        # print(d)
-        # print('----------------')
-
+        d[num1] = i  
 
 
 twoSum([2, 7, 11, 15], 9)
